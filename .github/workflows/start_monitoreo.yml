@@ -20,10 +20,6 @@ jobs:
         with:
           python-version: '3.13' 
 
-      - name: Install dependencies
-        run: 
-           pip install telegram  
-           pip install dnspython
-          
+        
       - name: Run script    
         run: python ./NslookupServidores.py 
