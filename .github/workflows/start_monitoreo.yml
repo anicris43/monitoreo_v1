@@ -22,7 +22,6 @@ jobs:
 
       - name: Install dependencies
         run: 
-           pip install anyio
            pip install python-telegram-bot        
         
       - name: Run script    
