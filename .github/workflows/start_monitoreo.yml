@@ -21,10 +21,9 @@ jobs:
           python-version: '3.13' 
 
       - name: Install dependencies
-        run: |
-          pip install socket  
-          pip install telegram  
-          pip install asyncio  
+        run: 
+           pip install telegram  
+    
           
       - name: Run script    
         run: python ./NslookupServidores.py 
