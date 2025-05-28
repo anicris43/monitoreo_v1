@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: 
            pip install telegram  
-    
+           pip install dnspython
           
       - name: Run script    
         run: python ./NslookupServidores.py 
