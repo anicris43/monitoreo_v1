@@ -1,8 +1,6 @@
 name: Start_monitoreo
 
-on:
-  push:
-    branches: [main]
+
 
 jobs:
   build:
