@@ -22,10 +22,18 @@ jobs:
 
       - name: Install dependencies
         run: 
-           pip install telegram  
+           pip install anyio
+           pip install certifi
+           pip install h11
+           pip install httpcore
+           pip install httpx
+           pip install idna
            pip install python-telegram-bot
            pip install requests
-           pip install httpx
+           pip install setuptools
+           pip install sniffio
+           pip install telegram  
+          
         
       - name: Run script    
         run: python ./NslookupServidores.py 
