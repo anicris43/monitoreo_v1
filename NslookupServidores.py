@@ -7,9 +7,14 @@ import asyncio
 TELEGRAM_BOT_TOKEN = '7953082943:AAHzroP7AuF9okzI0PikJMixLaXjb_KpqFA'
 TELEGRAM_CHAT_ID = '6543042526'  # Puede ser negativo si es un grupo
 IP_LIST = [
-    "181.112.55.149",
-    "186.5.42.226",
-    "192.168.68.148",
+    "181.112.55.149",   # Enlace CNT
+    "186.5.42.226",     # Enlace alterno
+    "192.168.10.192",   #Correo electrónico
+    "10.220.0.88",      #Pagina web: www.sce.gob.ec
+    "10.220.0.9",       #Servicio de aplicaciones: siscpm.scpm.gob.ec
+    "10.220.0.47",      #Extranet: servicios.scpm.gob.ec
+    "11.0.5.2",         #BD: PostgreSql dbpos.scpm.gob.ec
+    "11.0.1.4",         #Control Asistencia: atiempo.scpm.gob.ec
 ]
 
 
