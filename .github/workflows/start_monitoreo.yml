@@ -23,6 +23,7 @@ jobs:
       - name: Install dependencies
         run: 
            pip install telegram  
+           pip install python-telegram-bot
         
       - name: Run script    
         run: python ./NslookupServidores.py 
