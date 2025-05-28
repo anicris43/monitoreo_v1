@@ -1,9 +1,6 @@
 name: Start_monitoreo
 
 on:
-  push:
-    branches: [main]
-    
   schedule:
     - cron: '0 * * * *'  
  
@@ -22,6 +19,7 @@ jobs:
 
       - name: Install dependencies
         run: 
+           pip install --upgrade pip 
            pip install telegram  
            pip install python-telegram-bot
         
