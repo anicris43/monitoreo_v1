@@ -1,6 +1,9 @@
 name: Start_monitoreo
 
 on:
+  schedule:
+    - cron: '0 * * * *'  
+ 
 
 jobs:
   build:
@@ -15,5 +18,11 @@ jobs:
         with:
           python-version: '3.13' 
 
+      - name: Install dependencies
+        run: |
+          pip install socket  
+          pip install telegram  
+          pip install asyncio  
+          
       - name: Run script    
         run: python ./NslookupServidores.py 
