@@ -1,5 +1,4 @@
 import socket
-import dns.resolver
 
 from telegram import Bot
 import asyncio
