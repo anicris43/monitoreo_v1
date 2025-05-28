@@ -1,6 +1,9 @@
 name: Start_monitoreo
 
 on: 
+  push:
+    branches: [main]
+    
   schedule:
     - cron: '1 */12 * * *'  
  
